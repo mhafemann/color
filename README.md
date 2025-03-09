@@ -1,9 +1,5 @@
 # color
 
-links:
-
-- [@anymud/bun-plugin-dts ↗](https://github.com/wobsoriano/bun-lib-starter/blob/main/README.md)
-
 A tiny color library based on [picocolors ↗](https://github.com/alexeyraspopov/picocolors)
 
 ## Usage
