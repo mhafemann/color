@@ -1,0 +1,54 @@
+{
+  "editor.tokenColorCustomizations": {
+    "comments": "#5d818fa5",
+    "textMateRules": [
+      {
+        "scope": [
+          "constant.language.boolean.true.js",
+          "constant.language.boolean.false.js"
+        ],
+        "settings": {
+          "foreground": "#bc5454"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.js",
+          "string.quoted.double.js",
+          "string.template.js"
+        ],
+        "settings": {
+          "foreground": "#3aba92"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.js",
+          "meta.function-call.js",
+          "meta.block.js",
+          "meta.function.expression.js",
+          "source.js"
+        ],
+        "settings": {
+          "foreground": "#5dacc0"
+        }
+      },
+      {
+        "scope": ["keyword.control.import.js", "meta.import.js"],
+        "settings": {
+          "foreground": "#d99817"
+        }
+      },
+      {
+        "scope": [
+          "meta.object-literal.key.js",
+          "meta.object.member.js",
+          "meta.objectliteral.js"
+        ],
+        "settings": {
+          "foreground": "#d7e5e9"
+        }
+      }
+    ]
+  }
+}

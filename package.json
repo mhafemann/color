@@ -1,0 +1,30 @@
+{
+  "name": "@mhafemann/color",
+  "description": "A tiny color library based on picocolors",
+  "version": "1.0.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "author": {
+    "name": "Mark Hafemann",
+    "email": "markhafemann1@gmail.com"
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@anymud/bun-plugin-dts": "^1.0.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "ISC",
+  "type": "module"
+}
